@@ -28,14 +28,14 @@ return array(
 		'asset' => 'block-library/accordion/view.min.asset.php',
 	),
 	array(
+		'id' => '@wordpress/block-library/cover/view',
+		'path' => 'block-library/cover/view',
+		'asset' => 'block-library/cover/view.min.asset.php',
+	),
+	array(
 		'id' => '@wordpress/block-library/file/view',
 		'path' => 'block-library/file/view',
 		'asset' => 'block-library/file/view.min.asset.php',
-	),
-	array(
-		'id' => '@wordpress/block-library/form/view',
-		'path' => 'block-library/form/view',
-		'asset' => 'block-library/form/view.min.asset.php',
 	),
 	array(
 		'id' => '@wordpress/block-library/image/view',
@@ -68,6 +68,11 @@ return array(
 		'asset' => 'block-library/tabs/view.min.asset.php',
 	),
 	array(
+		'id' => '@wordpress/block-library/video/view',
+		'path' => 'block-library/video/view',
+		'asset' => 'block-library/video/view.min.asset.php',
+	),
+	array(
 		'id' => '@wordpress/boot',
 		'path' => 'boot/index',
 		'asset' => 'boot/index.min.asset.php',
@@ -78,14 +83,64 @@ return array(
 		'asset' => 'connectors/index.min.asset.php',
 	),
 	array(
-		'id' => '@wordpress/content-types',
-		'path' => 'content-types/index',
-		'asset' => 'content-types/index.min.asset.php',
-	),
-	array(
 		'id' => '@wordpress/core-abilities',
 		'path' => 'core-abilities/index',
 		'asset' => 'core-abilities/index.min.asset.php',
+	),
+	array(
+		'id' => '@wordpress/core-actions/page',
+		'path' => 'core-actions/page',
+		'asset' => 'core-actions/page.min.asset.php',
+	),
+	array(
+		'id' => '@wordpress/core-actions/post_type_supports',
+		'path' => 'core-actions/post_type_supports',
+		'asset' => 'core-actions/post_type_supports.min.asset.php',
+	),
+	array(
+		'id' => '@wordpress/core-actions/wp_block',
+		'path' => 'core-actions/wp_block',
+		'asset' => 'core-actions/wp_block.min.asset.php',
+	),
+	array(
+		'id' => '@wordpress/core-actions/wp_template_part',
+		'path' => 'core-actions/wp_template_part',
+		'asset' => 'core-actions/wp_template_part.min.asset.php',
+	),
+	array(
+		'id' => '@wordpress/core-fields/attachment',
+		'path' => 'core-fields/attachment',
+		'asset' => 'core-fields/attachment.min.asset.php',
+	),
+	array(
+		'id' => '@wordpress/core-fields/page',
+		'path' => 'core-fields/page',
+		'asset' => 'core-fields/page.min.asset.php',
+	),
+	array(
+		'id' => '@wordpress/core-fields/post_type_supports',
+		'path' => 'core-fields/post_type_supports',
+		'asset' => 'core-fields/post_type_supports.min.asset.php',
+	),
+	array(
+		'id' => '@wordpress/core-fields/root_site',
+		'path' => 'core-fields/root_site',
+		'asset' => 'core-fields/root_site.min.asset.php',
+	),
+	array(
+		'id' => '@wordpress/core-fields/wp_block',
+		'path' => 'core-fields/wp_block',
+		'asset' => 'core-fields/wp_block.min.asset.php',
+	),
+	array(
+		'id' => '@wordpress/core-fields/wp_template',
+		'path' => 'core-fields/wp_template',
+		'asset' => 'core-fields/wp_template.min.asset.php',
+	),
+	array(
+		'id' => '@wordpress/core-fields/wp_template_part',
+		'path' => 'core-fields/wp_template_part',
+		'asset' => 'core-fields/wp_template_part.min.asset.php',
 	),
 	array(
 		'id' => '@wordpress/dashboard-init',
@@ -153,6 +208,11 @@ return array(
 		'path' => 'vips/worker',
 		'asset' => 'vips/worker.min.asset.php',
 		'min_only' => true,
+	),
+	array(
+		'id' => '@wordpress/widget-primitives',
+		'path' => 'widget-primitives/index',
+		'asset' => 'widget-primitives/index.min.asset.php',
 	),
 	array(
 		'id' => '@wordpress/workflow',
